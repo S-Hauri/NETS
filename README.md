@@ -12,3 +12,6 @@ The model is a transformer with LSTM embedding based on the following architectu
 
 To create NETS embeddings that are invariant to permutations within a team, we pool the player embeddings per team by summing them together like this:
 ![image](https://user-images.githubusercontent.com/51958221/107989191-bc9fbb00-6f9f-11eb-9078-7dde6dfc5b12.png)
+
+visual_analytics.py contains data with embeddings generated for one game and provides code to automatically detect regions of interest, where the teams can be linearly separated (with at least 80% accuacy) by which team is on offense.
+![image](https://user-images.githubusercontent.com/51958221/107990527-a2b3a780-6fa2-11eb-93d2-03a5a9e89728.png)
