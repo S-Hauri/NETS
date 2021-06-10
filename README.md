@@ -1,7 +1,7 @@
 # NETS
 Neural Embeddings in Team Sports and Application to Basketball Play Analysis
 
-This is the code base for the paper "Neural Embeddings in Team Sports and Application to Basketball Play Analysis", currently under review for KDD 2021. It is based on pytorch with a single GPU, programmed and tested on Windows (check requirements.txt for further dependencies). To modify the hyper-parameters, modify the yaml files.
+This is the code base for the paper "Neural Embeddings in Team Sports and Application to Basketball Play Analysis", currently under review for ICDM 2021. It is based on pytorch with a single GPU, programmed and tested on Windows (check requirements.txt for further dependencies). To modify the hyper-parameters, modify the yaml files.
 
 We provide the data for only one game, but the entire dataset can be found at https://github.com/sealneaward/nba-movement-data.
 
